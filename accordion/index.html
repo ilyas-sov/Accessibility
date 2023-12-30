@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../index.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Accessibility</title>
+  </head>
+  <body>
+    <h1>Custom Accordion Accessibility</h1>
+
+    <section>
+      <div id="accordion-group" class="accordion">
+        <h3>
+          <button id="header-1" aria-controls="panel-1" aria-expanded="false">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
+            a.
+            <span>+</span>
+          </button>
+        </h3>
+        <div
+          id="panel-1"
+          class="panel"
+          aria-hidden="true"
+          aria-labelledby="header-1"
+        >
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate
+            nesciunt iste, laborum earum temporibus ab assumenda, natus possimus
+            maiores cum quos. Maxime tenetur nisi doloribus, quis voluptate
+            architecto aliquid commodi? Perferendis, deleniti cupiditate ab,
+            excepturi fugit architecto enim ipsa dignissimos numquam nostrum
+            unde amet, fugiat accusantium. Iure illum, nihil repellat sed quod
+            rem deserunt temporibus nisi quam molestias natus explicabo facilis
+            dolore quis magnam labore? Alias eveniet dolorem fugiat neque! Amet
+            ad provident perferendis veniam earum impedit adipisci? Quam
+            veritatis et molestiae quasi est quisquam in magnam. Iure eum vitae,
+            natus impedit inventore consequuntur excepturi non, architecto
+            placeat odit sequi.
+          </p>
+        </div>
+
+        <h3>
+          <button id="header-2" aria-controls="panel-2" aria-expanded="false">
+            Lorem ipsum dolor sit amet.
+            <span>+</span>
+          </button>
+        </h3>
+        <div
+          id="panel-2"
+          class="panel"
+          aria-hidden="true"
+          aria-labelledby="header-2"
+        >
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat,
+            minima optio! Ut nulla pariatur molestias ducimus dolorem quisquam
+            sed expedita explicabo suscipit ipsa inventore, excepturi labore
+            beatae accusantium similique doloremque dolorum quae, quam quia
+            earum cumque nostrum officia, minus doloribus! Fugit quae unde
+            molestiae earum modi exercitationem, sit dolor quia?
+          </p>
+        </div>
+
+        <h3>
+          <button id="header-3" aria-controls="panel-3" aria-expanded="false">
+            Lorem ipsum dolor sit amet consectetur.
+            <span>+</span>
+          </button>
+        </h3>
+        <div
+          id="panel-3"
+          class="panel"
+          aria-hidden="true"
+          aria-labelledby="header-3"
+        >
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+            consectetur voluptatibus at maiores? Nostrum quod commodi
+            praesentium cumque possimus deserunt!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <pre></pre>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+button {
+  border: none;
+  width: 100%;
+  font-size: 18px;
+  padding: 10px;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3,
+p {
+  margin: 0;
+}
+
+.accordion {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.panel {
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  max-height: 0px;
+  transition: max-height 0.2s linear;
+  overflow: hidden;
+}
+
+.panel p {
+  margin: 10px;
+}
+
+.panel:last-child {
+  border-bottom: 1px solid #eee;
+}
+
+.open {
+  max-height: 500px;
+}
