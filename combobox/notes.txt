@@ -1,0 +1,1 @@
+[x] Add outline on input whet it is in the focus with keyboard and remove outline when it is in focus with a mouse.

@@ -1,0 +1,85 @@
+body {
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  font-size: 20px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.combobox_container {
+  flex: 1;
+}
+
+input,
+button {
+  height: 40px;
+  padding: 0;
+  border: 1px solid gray;
+  box-sizing: border-box;
+}
+
+input {
+  padding: 5px 10px;
+  font-size: 20px;
+  flex: 1;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid gray;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+ul li {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+ul li:hover {
+  background-color: #eee;
+}
+
+ul li:focus-visible {
+  outline: 2px solid #000;
+  background-color: #eee;
+}
+
+button[type="submit"] {
+  padding: 5px 10px;
+}
+
+pre {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: start;
+  background-color: #f2f2f2;
+}
+
+.green {
+  background-color: #4fab67;
+}
+
+.red {
+  background-color: #de5050;
+}
